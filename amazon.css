@@ -1,0 +1,592 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+body{
+    background-color: #e9ecdb;
+}
+.box{
+    border:2px solid transparent;
+}
+.box:hover{
+    border:1.2px solid white;
+    border-radius: 2px;
+}
+/* ...........................................................nav start.................. */
+.nav-bar{
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/**nav-box1**/
+.nav-box1{
+    width:113px;
+    height:50px;
+    background-image: url("images/Amazon-Logo.png");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+/**nav-box2**/
+.nav-box2{
+    margin:5px 2px 5px 0px;
+    padding:8px 9px;
+    display: flex;
+    cursor: pointer;
+}
+.nav-box2-left{
+    margin-top: 8px;
+    color: white;
+}
+.nav-box2-right{
+    margin-left:6px;
+}
+.first-box2{
+    font-size: 12px;
+    color: #cccccc;
+}
+.second-box2{
+    font-size: 16px;
+    color:#ffffff;
+    font-weight: 700;
+}
+
+/**nav-box3**/
+.nav-box3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    width: 580px;
+    cursor: pointer;
+}
+#nav-select{
+    height:40px;
+    padding:10px;
+    border: none;
+    background-color: #e6e6e6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 14px;
+    color:#565858;
+    cursor: pointer;
+}
+.nav-input{
+    height: 40px;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    width:100%;
+}
+.box3-icon{
+    width:50px;
+    height: 40px;
+    border: none;
+    background-color: #febd69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.box3-icon:hover{
+    background-color: rgb(249, 173, 31);
+}
+
+/**nav-box4**/
+.nav-box4{
+    width:75px;
+    height:50px;
+    margin-left: 25px;
+    padding:4px 6px 5px 6px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    cursor: pointer;
+}
+.nav-box4 img{
+    width:23px;
+    height:23px;
+    margin-right: 1px;
+}
+.box4-select{
+    font-size: 14px;
+    font-weight: 600;
+    color:white;
+    background-color: #0f1111;
+    border:none;
+}
+
+/**nav-box5**/
+.nav-box5{
+    margin-left: 10px;
+    padding:4px 5px 5px 5px;
+    width:130px;
+    color:white;
+    cursor: pointer;
+}
+.box-first{
+    margin-top: 6px;
+    font-size: 12px;
+}
+.box-second{
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 6px;
+}
+
+/**nav-box6**/
+.nav-box6{
+    color:white;
+    margin-left:8px;
+    padding:4px 5px 5px 5px;
+    cursor: pointer;
+}
+
+/**nav-box7**/
+.nav-box7{
+    padding:6px 5px 6px 5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-box7 p{
+    margin-left:2px;
+    padding-top: 16px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+/* .........................................................nav end......................... */
+
+/** panel starts**/
+
+.panel{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:39px;
+    background-color: #232f3e;
+}
+.panel-left{
+    margin-left: 8px;
+    width:60px;
+    padding:9px 9px;
+    display: flex;
+    color:white;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.panel-left p{
+    margin-left: 5px;
+}
+.panel-center{
+    margin-left:10px;
+    width: 80%;
+    color:white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    gap:8px;
+}
+.panel-middle{
+    padding:10px 5px 8px 5px;
+}
+.panel-right{
+    width:210px;
+    padding:10px 5px 10px 5px;
+    color:white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* ...........................panel ends.............................................. */
+
+/** hero section**/
+.hero{
+    background-image: url("images/img14.jpg");
+    height:400px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.hero-box{
+    margin-left: 20px;
+    background-color: #f3f6f6;
+    height:40px;
+    width:97%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 30px;
+    gap:8px;
+    padding: 10px 14px;
+}
+a{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* ........................................hero section ends......................... */
+
+/** shopping section starts **/
+.shopping{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+.shop-box{
+    padding:20px 15px 15px 20px;
+    height: 450px;
+    width: 380px;
+    background-color:white;
+}
+.box-header{
+    width:100%;
+    height:55px;
+}
+.box-content{
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap;
+    gap:20px;
+    height:340px;
+    width:100%;
+}
+.box-content1{
+    height:170px;
+    width:160px;
+}
+.box-content1 p{
+    margin-top: 4px;
+    font-size: 12px;
+}
+.image1{
+    background-image: url("images/img2.jpg");
+    background-size:cover;
+    background-position: center;
+    height:75%;
+}
+.box-content2{
+    height:170px;
+    width:160px;
+}
+.box-content2 p{
+    margin-top: 4px;
+   font-size: 12px;
+}
+.image2{
+    background-image: url("images/img3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.box-content3{
+    height:170px;
+    width:160px;
+}
+.box-content3 p{
+    margin-top: 4px;
+    font-size: 12px;
+}
+.image3{
+    background-image: url("images/img4.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.box-content4{
+    height:170px;
+    width:160px;
+}
+.box-content4 p{
+    margin-top: 4px;
+    font-size: 12px;
+}
+.image4{
+    background-image: url("images/img5.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.box-footer{
+    margin-top:5px;
+    padding-left: 5px;
+    font-size:14px;
+}
+.box2-image{
+    margin: 10px 0px 25px 10px;
+    padding-left:30px;
+    padding-right: 20px;;
+    height:320px;
+    width:320px;
+    background-image: url("images/image1.jpg");
+    background-size: cover;
+}
+.box2-footer{
+    margin-left: 10px;
+    font-size: 14px;
+}
+.image5{
+    background-image: url("images/img10.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image6{
+    background-image: url("images/boult.jpg");
+    background-size: cover;
+    background-position: center;
+    height:73%;
+}
+.image7{
+    background-image: url("images/img12.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+
+}
+.image8{
+    background-image: url("images/img13.jpg");
+    background-position: center;
+    background-size: cover;
+    height:75%;
+}
+.box3-header{
+    width:100%;
+    height:55px;
+}
+.head-box{
+    font-size: 14px;
+}
+.image9{
+    background-image: url("images/image2.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image10{
+    background-image: url("images/image3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image11{
+    background-image: url("images/image4.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image12{
+    background-image: url("images/image5.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image13{
+    background-image: url("images/img6.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image14{
+    background-image: url("images/img7.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image15{
+    background-image: url("images/img8.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image16{
+    background-image: url("images/img9.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image17{
+    background-image: url("images/1.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image18{
+    background-image: url("images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image19{
+    background-image: url("images/3.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+.image20{
+    background-image: url("images/4.jpg");
+    background-size: cover;
+    background-position: center;
+    height:75%;
+}
+
+/************************ .shopping ends  ******************************************************/
+
+/******** Footer starts **********/
+.sign{
+    margin-top: 20px;
+    background-color: white;
+    height:200px;
+}
+.sign-container{
+    padding-left:20px;
+    padding-right: 20px;
+    height:165px;
+    width:100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign-top{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+.sign-middle{
+    width:240px;
+    height:30px;
+    border: 1.5px solid orange;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffcc4b;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+.sign-middle a{
+    color:black;
+}
+.sign-bottom{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.sign-bottom a{
+    cursor: pointer;
+}
+.upper-border{
+    width:100%;
+    height:20px;
+    border-bottom: 0.2px solid rgb(168, 160, 160);
+}
+.lower-border{
+    width:100%;
+    height:20px;
+    border-bottom: 0.2px solid rgb(168, 160, 160);
+}
+.top{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:50px;
+    background-color: #37475a;
+}
+.top a{
+    color:white;
+    font-size: 14px;
+    font-weight: 200;
+}
+.nav-footer{
+    height:400px;
+    background-color:#232f3e;
+    color:white;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav-footer-first{
+    height:290px;
+    width:130px;
+}
+#first-heading{
+    height:50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+#footer-list{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.nav-footer-third{
+    width:200px;
+    height:290px;
+}
+.nav-footer-fourth{
+    width:220px;
+    height:290px;
+}
+.nav-footer-line{
+    width:100%;
+    height:200px;
+    background-color: #131a22;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+.footer-table{
+    width:80%;
+    height:120px;
+    margin:0px 100px 0px 100px;
+}
+.row1{
+    width:160px;
+    height:40px;
+    color:white;
+}
+#row1-heading{
+    font-size:12px;
+}
+#row1-content{
+    font-size:12px;
+    color:rgba(255, 250, 250, 0.637);
+}
+.footer-line{
+    height:80px;
+    background-color: #131a22;
+}
+.footer-upper{
+    color:rgba(255, 250, 250, 0.977);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12.5px;
+    gap:14px;
+}
+.footer-lower{
+    margin-top:5px;
+    color:rgba(255, 250, 250, 0.977);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12.5px;
+    gap:14px;
+}
